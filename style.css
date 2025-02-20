@@ -44,3 +44,7 @@ ul {
 .submit{
     padding: 10px;
 }
+.search-bar{
+    display: flex;
+    align-items: flex-end;
+}
