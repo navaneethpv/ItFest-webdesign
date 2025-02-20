@@ -40,11 +40,38 @@ ul {
 .search{
     margin: 0 20px;
     padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 .submit{
     padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 .search-bar{
     display: flex;
     align-items: flex-end;
+}
+header {
+    width: 100vw;
+    height: 954px;
+   background-color: rgba(0, 0, 0, 0.5);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(./Images/img2.jpg);
+}   
+.header-content{
+    color: white;
+    text-align: center;
+}
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 112px;
+}
+.main{
+    font-size: 4rem;
+    margin-bottom: 300px;
 }
