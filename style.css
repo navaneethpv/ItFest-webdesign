@@ -13,10 +13,12 @@ ul {
 .logo {
     font-size: 4vmin;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    font-family: "Righteous", sans-serif;
-    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
     font-style: normal;
-    color: green;
+    color: white;
+    margin-top: 36px;
+
 }
 .navbar {
     position: absolute;
@@ -27,15 +29,21 @@ ul {
     justify-content: space-between;
     padding: 20px;
     color: red;
+    z-index: 1000;
+    transition: all 0.5s;
 }
 .nav-links {
     display: flex;
     align-items: center;
 }
 
-.nav-links li {
+.nav-links a,li {
     margin: 0 30px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .search {
     padding: 10px 20px;
@@ -49,7 +57,7 @@ ul {
 }
 
 .submit {
-    padding: 14px 20px;
+    padding: 13.7px 32px;
     border: none;
     background-color: #ff6600;
     color: white;
@@ -57,6 +65,7 @@ ul {
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
+    transition: all 0.3s;
 }
 .search-bar{
     display: flex;
@@ -70,7 +79,7 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-image: url(./Images/img2.jpg);
+    background-image: url(./Images/img6.jpeg);
 }   
 .header-content{
     color: white;
@@ -160,6 +169,7 @@ header {
     margin-left: 46px;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
 }
 .about h3{
     font-size: 2.5rem;
@@ -203,4 +213,55 @@ header {
     background-color: blue;
     margin-top: -204px;
     margin-left: 12%;
+}
+footer{
+    width: 100%;
+    height: 220px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: rgb(105, 105, 105,0.5);
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-links img{
+    width: 43px;
+    height: 43px;
+    margin: 0 29px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+footer h4{
+    color: rgb(0, 123, 145);
+    font-size: 1.5rem;
+    margin-top:10px;
+}
+footer p{
+    color: rgb(11, 120, 209);
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+/* hover effects */
+.nav-links li:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.btn:hover{
+    background-color:  blue;
+}
+.social-links img:hover{
+    transform: scale(1.2);
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: blue;
 }
