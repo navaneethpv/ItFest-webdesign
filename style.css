@@ -65,7 +65,6 @@ ul {
 header {
     width: 100vw;
     height: 954px;
-   background-color: rgba(0, 0, 0, 0.5);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -96,10 +95,10 @@ header {
     align-content: center;
 }
 .underline{
-    width: 100px;
+    width: 150px;
     height: 5px;
     background-color: red;
-    margin:49px auto ;
+    margin:40px auto ;
 
 }
 .container.line{
@@ -126,5 +125,50 @@ header {
     position: absolute;
     top: 35%;
     margin-top: -63px;
+}
+
+.destinations{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.destinations h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.about{
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+.image-container{
+    width: 100%;
+    height: 500px;
+    margin-right:10 px;
+    float: right;
+}
+.para-container{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+}
+.image-container img{
+    width: 800px;
+    height: auto;
+    margin-left: 102px;
+}
+.about h3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -205px;
+    margin-right: -249px;
+}
+.para-container p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 20px;
+    margin-top: 50px;
 
 }
