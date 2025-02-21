@@ -156,7 +156,7 @@ header {
 }
 .image-container img{
     width: 800px;
-    height: auto;
+    height: 550px;
     margin-left: 46px;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
@@ -165,7 +165,6 @@ header {
     font-size: 2.5rem;
     text-align: center;
     margin-top: -205px;
-    margin-right: -249px;
 }
 .para-container p{
     font-size: 1.5rem;
@@ -178,10 +177,30 @@ header {
     height: 800px;
     margin-top: 100px;
 }
-.about .line{
-    width: 100px;
-    height: 8px;
+.btn{
+    width: 200px;
+    height: 50px;
     background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 40%;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.about .line{
+    width: 500px;
+    height: 8px;
+    background-color: blue;
     margin-top: -204px;
-    margin-left: 50%;
+    margin-left: 63%;
+}
+.about .line-left{
+    width: 500px;
+    height: 8px;
+    background-color: blue;
+    margin-top: -204px;
+    margin-left: 12%;
 }
